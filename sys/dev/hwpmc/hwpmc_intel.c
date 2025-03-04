@@ -244,6 +244,10 @@ pmc_intel_initialize(void)
 			cputype = PMC_CPU_INTEL_ATOM_TREMONT;
 			nclasses = 3;
 			break;
+		case 0xCF:
+			cputype = PMC_CPU_INTEL_EMERALD_RAPIDS;
+			nclasses = 3;
+			break;
 		}
 		break;
 	}
